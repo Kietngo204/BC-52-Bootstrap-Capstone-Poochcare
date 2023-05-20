@@ -1,0 +1,54 @@
+/* Light theme */
+#myBody {
+    background-color: white;
+  }
+  #switchButton {
+    background-color: white;
+    font-size: 25px;
+  }
+  #switchButton:focus{
+    border: none;
+  }
+  #switchButton .fa-sun {
+    display: none;
+  }
+  #switchButton .fa-moon {
+    display: block;
+  }
+  
+  /* Dark Theme*/
+  .dark#myBody {
+    background-color: black;
+  }
+  .dark #switchButton {
+    background-color: black;
+  }
+  .dark #switchButton .fa-sun {
+    display: block;
+    color: #bbbbbb;
+  }
+  
+  .dark #switchButton .fa-moon {
+    display: none;
+  }
+  .dark .card {
+    background-color: black;
+    color: #bbbbbb;
+  }
+  /* HEADER */
+  .nav-link{
+    color: black;
+  }
+  .dark .nav-link{
+    background-color: black;
+    color: #bbbbbb;
+  }
+  .dark .nav-item .header_search {
+    background-color: #222222;
+  }
+  .dark .dropdown-menu .dropdown-item{
+    color: #dcdcdc;
+  }
+  .dark .dropdown-menu::before{
+    background-color: black;
+}

@@ -1,0 +1,100 @@
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Jost', sans-serif;
+}
+/* HEADER */
+.navbar-nav .nav-item{
+    margin: 0 12px ;
+    padding: 8px 0;
+}
+.navbar-nav .nav-link{
+    font-size: 1.4rem;
+    padding-right: 0;
+    padding-left: 0;
+    position: relative;
+    transition: all .5s;
+}
+.navbar-nav .nav-link::before{
+    content: '';
+    position: absolute;
+    background-color: #189A46;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    transition: all .5s;
+}
+.navbar-nav .nav-link:hover:before{
+    width: 100%;
+}
+.nav-item .nav-link:hover{
+    color: #189A46;
+}
+.navbar-nav .nav-link.active{
+    color: #189A46;
+}
+.nav-item .header_search{
+    color: #189A46;
+    display: inline-block;
+    font-size: 1rem;
+    text-align: center;
+    height: 45px;
+    width: 45px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #f9f7fe;
+    transition: all .5s;
+}
+.nav-item .header_search:hover{
+    background-color: #189A46;
+    color: #fff;
+}
+.dropdown-menu {
+    padding-right: 40px;
+    background: none;
+    border: 1px solid #d2d2d2;
+    position: relative;
+}
+.dropdown-menu::before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: white;
+    border: 1px solid #d2d2d2;
+    display: block;
+    border-right: none;
+    border-bottom: none;
+    transform: translateX(-50%) rotateZ(45deg);
+    position: absolute;
+    top: -7px;
+    left: 33%;
+    z-index: 1001;
+}
+.dropdown-menu .dropdown-item{
+    font-size: 1.4rem;
+    padding: 16px;
+    transition: all .5s;
+}
+.dropdown-menu .dropdown-item::after{
+    content: '';
+    background-color: #189A46;
+    display: block;
+    width: 0;
+    height: 1px;
+    transition: all .5s;
+}.dropdown-menu .dropdown-item:hover:after{
+    width: 100%;
+}
+.dropdown-menu .dropdown-item:hover{
+    color: #189A46;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: transparent;
+}
+
+
