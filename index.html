@@ -81,21 +81,149 @@
     </header>
     <main>
         <!-- BANNER -->
-        <!-- <section class="banner">
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <div class="banner_item">
-
+        <section class="banner">
+            <div class="banner_content">
+                <div class="owl-one owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="banner_item">
+                            <div class="banner_img">
+                                <img src="./img/banner1.jpg" alt="">
+                            </div>
+                            <div class="banner_overlay">
+                                <div class="banner_title">
+                                    <h2>Quality Things For <br>
+                                        Loving Pets</h2>
+                                    <p>Keep Your Pet Smiling</p>
+                                    <button class="btn">Read More</button>
+                                    <button class="btn btn1">Contact Us</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="banner_item">
+                            <div class="banner_img">
+                                <img src="./img/banner2.jpg" alt="">
+                            </div>
+                            <div class="banner_overlay">
+                                <div class="banner_title banner_title1">
+                                    <h2>Delivering happiness <br>
+                                        for Pets</h2>
+                                    <p>For the love of pets</p>
+                                    <button class="btn">Read More</button>
+                                    <button class="btn btn1">Contact Us</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="banner_item">
+                            <div class="banner_img">
+                                <img src="./img/banner1.jpg" alt="">
+                            </div>
+                            <div class="banner_overlay">
+                                <div class="banner_title">
+                                    <h2>Quality Things For <br>
+                                        Loving Pets</h2>
+                                    <p>Keep Your Pet Smiling</p>
+                                    <button class="btn">Read More</button>
+                                    <button class="btn btn1">Contact Us</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="banner_item">
+                            <div class="banner_img">
+                                <img src="./img/banner1.jpg" alt="">
+                            </div>
+                            <div class="banner_overlay">
+                                <div class="banner_title banner_title1">
+                                    <h2>Delivering happiness <br>
+                                        for Pets</h2>
+                                    <p>We help for project</p>
+                                    <button class="btn">Read More</button>
+                                    <button class="btn btn1">Contact Us</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
             </div>
-        </section> -->
+        </section>
     </main>
     <!-- FOOTER -->
-    <footer></footer>
+    <footer>
+        <div class="footer_top">
+            <div class="container pt-3">
+                <div class="footer_content py-5">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>
+                                Contact information
+                            </h4>
+                            <ul>
+                                <li>
+                                    <p>Address :<span> #135 block, Barnard St. Brooklyn, London 10036, UK</span></p>
+                                </li>
+                                <li>
+                                    <p>Phone :
+                                        <span>
+                                            <a href="tel:+(12)234-11-24">+(12)234-11-24</a>
+                                        </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>Email :
+                                        <span><a href="mailto:example@mail.com">example@mail.com</a></span>
+                                    </p>
+                                </li>
+                            </ul>
+                            <ul class="d-flex">
+                                <li class="pe-3"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li class="pe-3"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li class="pe-3"><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                                <li class="pe-3"><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-4">
+                                    <h4>
+                                        Archives
+                                    </h4>
+                                    <a href="#">December 2020</a>
+                                </div>
+                                <div class="col-4">
+                                    <h4>Categories</h4>
+                                    <ul>
+                                        <li><a href="#">Animals</a></li>
+                                        <li><a href="#">Pets</a></li>
+                                        <li><a href="#">Pets care</a></li>
+                                        <li><a href="#">Uncategorized</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <h4>Meta</h4>
+                                    <ul>
+                                        <li><a href="#">Log in</a></li>
+                                        <li><a href="#">Entries feed</a></li>
+                                        <li><a href="#">Comments feed</a></li>
+                                        <li><a href="#">WordPress.org</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <div class="container">
+                <p class="m-0 text-center">© 2023 All Rights Reserved by <span><a href="#">W3Layouts.</a></span></p>
+            </div>
+        </div>
+    </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
@@ -115,6 +243,31 @@
         $(document).ready(function () {
             $(".owl-carousel").owlCarousel();
         });
+    </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: false,
+            center: true,
+            responsiveClass: true,
+            autoplay: false,
+            dotsSpeed: 1000,
+            autoplayTimeout: 5000,
+            autoplaySpeed: 1000,
+            autoplayHoverPause: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
     </script>
 </body>
 

@@ -52,3 +52,6 @@
   .dark .dropdown-menu::before{
     background-color: black;
 }
+.dark header{
+  background-color: black;
+}
