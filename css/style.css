@@ -8,6 +8,16 @@ html, body{
     font-family: 'Jost', sans-serif;
 }
 /* HEADER */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+#switchButton{
+    order: 3;
+}
 .navbar-nav .nav-item{
     margin: 0 12px ;
     padding: 8px 0;
@@ -96,5 +106,10 @@ html, body{
 .dropdown-item:focus, .dropdown-item:hover{
     background-color: transparent;
 }
-
-
+/* RESPONSIVE */
+@media screen and (max-width: 991.98px) {
+    #switchButton{
+        margin-left: auto;
+        order: 0;
+    }
+}
