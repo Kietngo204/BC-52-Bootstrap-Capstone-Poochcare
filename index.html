@@ -171,7 +171,7 @@
         <!-- LIST -->
         <section class="list bg-light py-5">
             <div class="container py-5">
-                <div class="row">
+                <div class="row g-4">
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="list_item">
                             <i class="fa-regular fa-snowflake"></i>
@@ -230,7 +230,84 @@
             </div>
         </section>
         <!-- CHOOSE -->
-        <section class="choose"></section>
+        <section class="choose py-5">
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <div class="choose_left">
+                            <img src="./img/ab.jpg" alt="..." class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-lg-0 mt-5">
+                        <div class="choose_right">
+                            <div class="heading_title">
+                                <h4>WHY CHOOSE US</h4>
+                                <h2>What We Offer For You</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                    nostrud.Lorem ipsum dolor sit amet, consectetur adipisicingelit.</p>
+                            </div>
+                            <div class="choose_content">
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        <p class="m-0">Certified Groomer</p>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        <p class="m-0">10 Years of Experience</p>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        <p class="m-0">Pet Lover</p>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        <p class="m-0">Customer Supports</p>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        <p class="m-0">Veterinary Help</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- NUMMBER -->
+        <section class="number py-5">
+            <div class="container py-3">
+                <div class="row justify-content-center text-center">
+                    <div class="col-6 col-lg-3">
+                        <div class="nummber_item">
+                            <p class="counter mb-1">730</p>
+                            <h4>Happy Clients</h4>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="nummber_item">
+                            <p class="counter mb-1">80</p>
+                            <h4>Professionals</h4>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="nummber_item">
+                            <p class="counter mb-1">812</p>
+                            <h4>Adopted Pets
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="nummber_item">
+                            <p class="counter mb-1">90</p>
+                            <h4>Awards</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- FOOTER -->
     <footer>
@@ -315,6 +392,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
         integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Dark and Light js -->
     <script src="./js/darkandlight.js"></script>
     <!-- Owl Carousel js -->
@@ -348,6 +428,14 @@
                 }
             }
         })
+    </script>
+    <!-- Countinh Up Number js -->
+    <script src="./js/jquery.countup.min.js"></script>
+    <script>
+        $('.counter').countUp({
+            'time': 2000,
+            'delay': 10
+        });
     </script>
 </body>
 

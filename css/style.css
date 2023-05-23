@@ -31,17 +31,17 @@ h2 {
   font-size: 1.3rem;
 }
 .btnRead {
-    color: black;
-    font-weight: 600;
-    font-size: 1.2rem;
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid #189a46;
-    transition: all .5s;
-  }
-  .btnRead:hover {
-      color: #189a46;
-  }
+  color: black;
+  font-weight: 600;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #189a46;
+  transition: all 0.5s;
+}
+.btnRead:hover {
+  color: #189a46;
+}
 /* HEADER */
 header {
   position: fixed;
@@ -210,37 +210,69 @@ header {
   background-color: #189a46;
   width: 30px;
 }
-.banner h2{
-    color: white;
+.banner h2 {
+  color: white;
 }
 /* LIST */
-.list_item{
-    background-color: white;
-    padding: 40px 30px;
-    border-radius: 10px;
-    margin-top: 24px;
-    transition: all .5s;
+.list_item {
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 10px;
+  transition: all 0.5s;
 }
-.list_item:hover{
-    background-color: rgba(147, 107, 232, 0.05);;
+.list_item:hover {
+  background-color: rgba(147, 107, 232, 0.05);
 }
-.list_item i{
-    color: #189a46;
-    font-size: 1.875rem;
-    margin-bottom: 1rem;
+.list_item i {
+  color: #189a46;
+  font-size: 1.875rem;
+  margin-bottom: 1rem;
 }
-.list_item a{
-    display: block;
-    color: black;
-    font-size: 1.5rem;
-    font-weight: 600;
-    transition: all .5s
+.list_item a {
+  display: block;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: all 0.5s;
 }
-.list_item a:hover{
-    color: #189a46;
+.list_item a:hover {
+  color: #189a46;
 }
-.list_item p{
-    font-size: 1.3rem;
+.list_item p {
+  font-size: 1.3rem;
+}
+/* CHOOSE */
+.choose_left img{
+  border-radius: 10px;
+}
+.choose_content ul li {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+.choose_content ul li i {
+  color: #189a46;
+  margin-right: 12px;
+  background-color: rgba(147, 107, 232, 0.05);
+  padding: 8px;
+  border-radius: 50%;
+}
+.choose_content ul li p{
+  color: #000c04;
+  font-weight: 600;
+}
+/* NUMBBER */
+.number{
+  background-color: #189a46;
+}
+.nummber_item p{
+  color: white;
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+.nummber_item h4{
+  font-size: 1.25rem;
+  color: #d1ebda;
 }
 /* FOOTER */
 footer {
