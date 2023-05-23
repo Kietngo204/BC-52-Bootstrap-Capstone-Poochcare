@@ -1,6 +1,7 @@
 /* Light theme */
 #myBody {
     background-color: white;
+    color: #696969;
   }
   #switchButton {
     background-color: white;
@@ -19,6 +20,7 @@
   /* Dark Theme*/
   .dark#myBody {
     background-color: black;
+    color: #bbbbbb;
   }
   .dark #switchButton {
     background-color: black;
@@ -35,6 +37,13 @@
     background-color: black;
     color: #bbbbbb;
   }
+  .dark .btnRead{
+    color: #ddd;
+    font-weight: 600;
+  }
+  .dark h2{
+    color: #bbbbbb;
+  }
   /* HEADER */
   .nav-link{
     color: black;
@@ -49,9 +58,28 @@
   .dark .dropdown-menu .dropdown-item{
     color: #dcdcdc;
   }
+  .dark .dropdown-menu {
+    background-color: black;
+    border: 1px solid #333;
+  }
   .dark .dropdown-menu::before{
     background-color: black;
+    border-top: 1px solid #333;
+    border-left: 1px solid #333;
 }
 .dark header{
   background-color: black;
+}
+/* LIST */
+.dark .list{
+  background-color: #222 !important;
+}
+.dark .list_item{
+  background-color: #151515;
+}
+.dark .list_item:hover{
+  background-color: #222;
+}
+.dark .list_item a{
+  color: #bbbbbb;
 }
