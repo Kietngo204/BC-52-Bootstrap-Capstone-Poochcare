@@ -83,3 +83,10 @@
 .dark .list_item a{
   color: #bbbbbb;
 }
+/* CHOOSE */
+.dark .choose_content ul li p{
+  color: #ddd;
+}
+.dark .choose_content ul li i {
+  background-color: #222;
+}
