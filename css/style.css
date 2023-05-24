@@ -63,6 +63,7 @@ header {
   padding-right: 0;
   padding-left: 0;
   position: relative;
+  background-color: transparent;
   transition: all 0.5s;
 }
 .navbar-nav .nav-link::before {
@@ -143,6 +144,12 @@ header {
 .dropdown-item:focus,
 .dropdown-item:hover {
   background-color: transparent;
+}
+.header_content .navbar .navbar-toggler{
+  margin-left: 0 !important;
+}
+.header_content .navbar .navbar-toggler:focus{
+  box-shadow: none;
 }
 /* BANNER */
 .banner .owl-carousel {
