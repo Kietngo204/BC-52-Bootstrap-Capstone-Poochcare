@@ -43,6 +43,11 @@ h2 {
   color: #189a46;
 }
 /* HEADER */
+#header{
+  padding: 8px 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: all 1s;
+}
 header {
   position: fixed;
   top: 0;
