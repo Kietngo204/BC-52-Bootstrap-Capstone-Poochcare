@@ -23,6 +23,8 @@
     <!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <!-- Magic Popup CSS -->
+    <link rel="stylesheet" href="./css/magnific-popup.css">
     <!-- Main CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -160,10 +162,9 @@
                     <h2>We Love Your Pets Like They Are Our <br>
                         Own
                     </h2>
-                    <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio <br>
-                        voluptatem tenetur consequatur. Vestibulum ante ipsum primis in faucibus orci luctus <br>
-                        et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis <br>
-                        sodales quis.</p>
+                    <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio
+                        voluptatem tenetur consequatur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                        posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis.</p>
                     <button class="btnRead">Read More</button>
                 </div>
             </div>
@@ -308,6 +309,108 @@
                 </div>
             </div>
         </section>
+        <!-- OUR PLANT -->
+        <section class="plant py-5">
+            <div class="container text-center py-3">
+                <div class="heading_title">
+                    <h4>Our Plans</h4>
+                    <h2>Affordable Packages</h2>
+                </div>
+                <div class="plant_content">
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <div class="plant_item">
+                                <div class="plan_top">
+                                    <h4>Free Package
+                                    </h4>
+                                    <h3 class="py-3">
+                                        <label>$</label>
+                                        0
+                                        <span>/month</span>
+                                    </h3>
+                                </div>
+                                <div class="plan_bottom">
+                                    <p>5 Dog Walk</p>
+                                    <p>3 Vet Visit</p>
+                                    <p>3 Pet Spa</p>
+                                    <p>Free Supports</p>
+                                    <p>Customer Support</p>
+                                    <button class="btn">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="plant_item plan_scale shadow">
+                                <div class="plan_top plan_active">
+                                    <h5>SAVE 10%</h5>
+                                    <h4>Standard Package
+                                    </h4>
+                                    <h3 class="py-3">
+                                        <label>$</label>
+                                        0
+                                        <span>/month</span>
+                                    </h3>
+                                </div>
+                                <div class="plan_bottom">
+                                    <p>5 Dog Walk</p>
+                                    <p>3 Vet Visit</p>
+                                    <p>3 Pet Spa</p>
+                                    <p>Free Supports</p>
+                                    <p>Customer Support</p>
+                                    <button class="btn">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="plant_item">
+                                <div class="plan_top">
+                                    <h4>Pro Package
+                                    </h4>
+                                    <h3 class="py-3">
+                                        <label>$</label>
+                                        89
+                                        <span>/month</span>
+                                    </h3>
+                                </div>
+                                <div class="plan_bottom">
+                                    <p>5 Dog Walk</p>
+                                    <p>3 Vet Visit</p>
+                                    <p>3 Pet Spa</p>
+                                    <p>Free Supports</p>
+                                    <p>Customer Support</p>
+                                    <button class="btn">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- BETTER -->
+        <section class="better py-5">
+            <div class="container text-center pb-5">
+                <div class="heading_title">
+                    <h4>BETTER PET NUTRITION.</h4>
+                    <h2>The Finest Fresh Food And All Your Pet Needs.</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Lorem ipsum dolor sit amet elit
+                        consec tetur adipisi elit. Iure voluptatibus explicabo officia.</p>
+                </div>
+                <div class="better_content">
+                    <div class="better_img">
+                        <img src="./img/banner2.jpg" alt="">
+                    </div>
+                    <a href="#small-dialog" class="open-popup-link popup-with-zoom-anim">
+                        <i class="fa-solid fa-play"></i>
+                    </a>
+
+                    <div id="small-dialog" class="zoom-anim-dialog mfp-hide w-100">
+                        <iframe src="https://player.vimeo.com/video/305185528" frameborder="0"
+                            allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- FOOTER -->
     <footer>
@@ -435,8 +538,29 @@
     <script src="./js/jquery.countup.min.js"></script>
     <script>
         $('.counter').countUp({
-            'time': 2000,
+            'time': 1000,
             'delay': 10
+        });
+    </script>
+    <!-- Magic Popup js -->
+    <script src="./js/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".popup-with-zoom-anim").magnificPopup({
+                type: "inline",
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: "auto",
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: "my-mfp-zoom-in"
+            });
         });
     </script>
 </body>

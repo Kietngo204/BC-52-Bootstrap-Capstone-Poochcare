@@ -43,7 +43,7 @@ h2 {
   color: #189a46;
 }
 /* HEADER */
-#header{
+#header {
   padding: 8px 0;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   transition: all 1s;
@@ -150,10 +150,10 @@ header {
 .dropdown-item:hover {
   background-color: transparent;
 }
-.header_content .navbar .navbar-toggler{
+.header_content .navbar .navbar-toggler {
   margin-left: 0 !important;
 }
-.header_content .navbar .navbar-toggler:focus{
+.header_content .navbar .navbar-toggler:focus {
   box-shadow: none;
 }
 /* BANNER */
@@ -225,6 +225,11 @@ header {
 .banner h2 {
   color: white;
 }
+/* ABOUT US */
+.aboutUs .heading_title {
+  max-width: 800px;
+  margin: 0 auto;
+}
 /* LIST */
 .list_item {
   background-color: white;
@@ -254,7 +259,7 @@ header {
   font-size: 1.3rem;
 }
 /* CHOOSE */
-.choose_left img{
+.choose_left img {
   border-radius: 10px;
 }
 .choose_content ul li {
@@ -269,23 +274,138 @@ header {
   padding: 8px;
   border-radius: 50%;
 }
-.choose_content ul li p{
+.choose_content ul li p {
   color: #000c04;
   font-weight: 600;
   font-size: 1.1rem;
 }
 /* NUMBBER */
-.number{
+.number {
   background-color: #189a46;
 }
-.nummber_item p{
+.nummber_item p {
   color: white;
   font-size: 3.2rem;
   font-weight: 600;
 }
-.nummber_item h4{
+.nummber_item h4 {
   font-size: 1.25rem;
   color: #d1ebda;
+}
+/* OUR PLANT */
+.plant {
+  background-color: rgba(147, 107, 232, 0.05);
+}
+.plant .heading_title {
+  margin-bottom: 100px;
+}
+.plant .heading_title h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.plant_item {
+  background-color: white;
+  padding: 3.5rem 0;
+  padding-top: 0;
+  border-radius: 10px;
+}
+.plant_item h4 {
+  color: black;
+  font-weight: 600;
+  font-size: 1.6rem;
+  padding-top: 2.5rem;
+}
+.plant_item h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #189a46;
+}
+.plant_item h3 label {
+  font-size: 1.6rem;
+  vertical-align: top;
+  transform: translateX(10px);
+}
+.plant_item h3 span {
+  display: inline-block;
+  color: #999;
+  font-size: 1rem;
+  font-weight: 400;
+  transform: translateX(-10px);
+}
+.plant_item .plan_bottom p {
+  font-size: 1.25rem;
+}
+.plant_item .plan_bottom button {
+  padding: 12px 35px;
+  margin-top: 10px;
+  background-color: #189a46;
+  color: white;
+  transition: all 0.5s;
+}
+.plant_item .plan_bottom button:hover {
+  color: #fff;
+  background-color: #116e32;
+  border-color: #116e32;
+}
+.plan_active {
+  background-color: #189a46;
+  border-radius: 10px 10px 0 0;
+}
+.plan_active h5 {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 2.5rem;
+  font-size: 1rem;
+  color: #189a46;
+  padding: 8px 20px;
+}
+.plan_active h4 {
+  padding-top: 2rem;
+}
+.plan_active h4,
+.plan_active h3,
+.plan_active h3 span {
+  color: #fff;
+}
+.plan_scale {
+  transform: scale(1.12) translateY(-30px);
+}
+/* BETTER */
+.better .heading_title h4 {
+  font-weight: normal;
+}
+.better_content {
+  position: relative;
+}
+.better_content .open-popup-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #189a46;
+}
+.better_content .open-popup-link i {
+  width: 55px;
+  height: 55px;
+  background: #fff;
+  line-height: 58px;
+  border-radius: 50%;
+  transition: all 0.5s;
+  animation: ripples 1s linear infinite;
+}
+.better_content .open-popup-link i:hover {
+  transform: scale(1.1);
+}
+.better_img,
+.better .heading_title {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+.better_img img {
+  width: 100%;
+  border-radius: 10px;
 }
 /* FOOTER */
 footer {
@@ -329,8 +449,13 @@ footer a:hover {
 }
 /* RESPONSIVE */
 @media screen and (max-width: 1199.98px) {
+  /* BANNER */
   .banner_item .banner_overlay .banner_title {
     transform: translateX(0);
+  }
+  /* OUR PLANT */
+  .plan_scale {
+    transform: scale(1.16) translateY(-30px);
   }
 }
 @media screen and (max-width: 991.98px) {
@@ -349,6 +474,26 @@ footer a:hover {
   .banner_overlay .banner_title p {
     font-size: 15px;
   }
+  /* OUR PLANT */
+  .plant .plant_content .row {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  .plan_scale {
+    transform: scale(1.02) translateY(0);
+  }
+}
+@media screen and (max-width: 767.98px) {
+  /* OUR PLANT */
+  .plant .plant_content .row {
+    max-width: 75%;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  /* OUR PLANT */
+  .plant .plant_content .row {
+    gap: 30px;
+  }
 }
 @media screen and (max-width: 480px) {
   /* BANNER */
@@ -363,6 +508,12 @@ footer a:hover {
     padding: 12px 30px;
   }
 }
+@media screen and (max-width: 415px) {
+  /* OUR PLANT */
+  .plant .plant_content .row {
+    max-width: 100%;
+  }
+}
 @media screen and (max-width: 332px) {
   /* BANNER */
   .banner_overlay .banner_title .btn {
@@ -370,4 +521,76 @@ footer a:hover {
     margin-top: 20px;
     padding: 12px 30px;
   }
+}
+
+/* ANIMATION */
+@keyframes ripples {
+  0% {
+    box-shadow: 0 0 0 0 rgba(15, 162, 66, 0.164),
+      0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25);
+  }
+
+  100% {
+    box-shadow: 0 0 0 10px rgba(15, 162, 67, 0.25),
+      0 0 0 20px rgba(15, 162, 67, 0.25), 0 0 0 40px rgba(50, 100, 245, 0);
+  }
+}
+
+/* Magic Popup CSS */
+
+#small-dialog {
+  max-width: 750px;
+  margin: 40px auto;
+  position: relative;
+}
+div#small-dialog iframe {
+  width: 100%;
+  height: 420px;
+  display: block;
+  border-radius: 10px;
+}
+.mfp-close-btn-in .mfp-close {
+  color: #fff;
+}
+.mfp-close,
+.mfp-close:active {
+  top: -40px;
+}
+
+/*
+   * Fade-zoom animation for first dialog
+   */
+/* start state */
+.my-mfp-zoom-in .zoom-anim-dialog {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  transform: scale(0.8);
+}
+
+/* animate in */
+.my-mfp-zoom-in.mfp-ready .zoom-anim-dialog {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* animate out */
+.my-mfp-zoom-in.mfp-removing .zoom-anim-dialog {
+  transform: scale(0.8);
+  opacity: 0;
+}
+
+/* Dark overlay, start state */
+.my-mfp-zoom-in.mfp-bg {
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+/* animate in */
+.my-mfp-zoom-in.mfp-ready.mfp-bg {
+  opacity: 0.95;
+}
+
+/* animate out */
+.my-mfp-zoom-in.mfp-removing.mfp-bg {
+  opacity: 0;
 }
