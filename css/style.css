@@ -260,6 +260,7 @@ header {
 }
 /* CHOOSE */
 .choose_left img {
+  width: 100%;
   border-radius: 10px;
 }
 .choose_content ul li {
