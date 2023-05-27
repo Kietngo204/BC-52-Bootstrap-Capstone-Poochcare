@@ -591,6 +591,11 @@ footer a:hover {
   color: #fff;
   border-radius: 0 10px 10px 0;
   width: 20%;
+  transition: all .5s;
+}
+.modal-body form .btn:hover{
+  background-color: #116e32;
+  color: white;
 }
 .modal .modal-dialog{
   position: absolute;
