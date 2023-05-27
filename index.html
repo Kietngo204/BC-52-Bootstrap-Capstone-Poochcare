@@ -75,7 +75,8 @@
                                 <a class="nav-link p-0" href="#">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="header_search py-1" href="#"> <i class="fa-solid fa-magnifying-glass"></i></a>
+                                <a class="header_search py-1" data-bs-toggle="modal" data-bs-target="#searchModal"
+                                    href="#"> <i class="fa-solid fa-magnifying-glass"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -425,7 +426,8 @@
                         <div class="item">
                             <div class="testi_item">
                                 <blockquote class="testi_text">
-                                    <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                    <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Velit beatae laudantium
                                         voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
                                         Dolores molestias adipisci dolor sit amet!."</p>
                                 </blockquote>
@@ -443,7 +445,8 @@
                         <div class="item">
                             <div class="testi_item">
                                 <blockquote class="testi_text">
-                                    <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                    <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Velit beatae laudantium
                                         voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
                                         Dolores molestias adipisci dolor sit amet!."</p>
                                 </blockquote>
@@ -461,7 +464,8 @@
                         <div class="item">
                             <div class="testi_item">
                                 <blockquote class="testi_text">
-                                    <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                    <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Velit beatae laudantium
                                         voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
                                         Dolores molestias adipisci dolor sit amet!."</p>
                                 </blockquote>
@@ -479,7 +483,8 @@
                         <div class="item">
                             <div class="testi_item">
                                 <blockquote class="testi_text">
-                                    <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                    <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Velit beatae laudantium
                                         voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
                                         Dolores molestias adipisci dolor sit amet!."</p>
                                 </blockquote>
@@ -497,7 +502,8 @@
                         <div class="item">
                             <div class="testi_item">
                                 <blockquote class="testi_text">
-                                    <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                    <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Velit beatae laudantium
                                         voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
                                         Dolores molestias adipisci dolor sit amet!."</p>
                                 </blockquote>
@@ -515,7 +521,8 @@
                         <div class="item">
                             <div class="testi_item">
                                 <blockquote class="testi_text">
-                                    <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                    <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Velit beatae laudantium
                                         voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
                                         Dolores molestias adipisci dolor sit amet!."</p>
                                 </blockquote>
@@ -540,7 +547,8 @@
                 <div class="stay_content">
                     <div class="heading_title text-center mb-5">
                         <h2>Stay Updated!</h2>
-                        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+                        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla
+                            mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
                     </div>
                     <form>
                         <input class="form-control" type="text" placeholder="Enter your email...">
@@ -622,6 +630,26 @@
             </div>
         </div>
     </footer>
+    <!-- BACK TOP TOP -->
+    <a href="#" class="backToTop cd-top text-replace js-cd-top">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
+    <!-- SEARCH POPUP -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn ms-auto" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <input type="text" placeholder="Search..">
+                        <button class="btn">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
@@ -720,6 +748,9 @@
             })
         });
     </script>
+    <!-- Back to top js -->
+    <script src="./js/util.js"></script>
+    <script src="./js/main-backToTop.js"></script>
 </body>
 
 </html>

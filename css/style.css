@@ -106,7 +106,7 @@ header {
   background-color: #189a46;
   color: #fff;
 }
-.dropdown-menu[data-bs-popper]{
+.dropdown-menu[data-bs-popper] {
   left: -90%;
 }
 .dropdown-menu {
@@ -411,74 +411,76 @@ header {
   border-radius: 10px;
 }
 /* TESTIMONIALS */
-.testi{
+.testi {
   background-color: rgba(147, 107, 232, 0.05);
 }
-.testi_item{
+.testi_item {
   background-color: white;
   padding: 40px 30px;
   border-radius: 10px;
 }
-.testi_text{
+.testi_text {
   font-size: 1.2rem;
   margin: 0 24px 24px 24px;
 }
-.testi_text p i{
+.testi_text p i {
   font-size: 1.5rem;
   vertical-align: bottom;
   line-height: 2.5;
   color: #189a46;
   font-weight: 600;
 }
-.testi_bottom{
+.testi_bottom {
   display: flex;
 }
-.testi_bottom .testi_img{
+.testi_bottom .testi_img {
   width: 70px;
   height: 70px;
 }
-.testi_bottom .testi_img img{
+.testi_bottom .testi_img img {
   border-radius: 50%;
   width: 100%;
 }
-.testi_bottom .testi_name{
+.testi_bottom .testi_name {
   margin-left: 20px;
 }
-.testi_bottom .testi_name h4{
+.testi_bottom .testi_name h4 {
   color: black;
 }
-.testi_bottom .testi_name p{
+.testi_bottom .testi_name p {
   font-size: 1.07rem;
 }
-.testi .owl-theme .owl-nav.disabled+.owl-dots{
+.testi .owl-theme .owl-nav.disabled + .owl-dots {
   margin-top: 80px;
 }
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot span{
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot span {
   transition: all.5s;
 }
-.testi .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+.testi .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
   background-color: #189a46;
   width: 30px;
   height: 10px;
 }
 /* STAY */
-.stay_content{
+.stay_content {
   max-width: 700px;
   margin: 0 auto;
 }
-.stay_content form{
+.stay_content form {
   display: flex;
   gap: 30px;
 }
-.stay_content form input{
+.stay_content form input {
   border-radius: 10px;
   height: 60px;
 }
-.stay_content form .form-control:focus{
+.stay_content form .form-control:focus {
   border-color: #189a46;
   box-shadow: none;
 }
-.stay_content form .btn{
+.stay_content form .btn {
   color: #fff;
   background-color: #189a46;
   border-radius: 10px;
@@ -524,6 +526,82 @@ footer a:hover {
 .footer_copyright a:hover {
   color: #f53626;
 }
+/* Back To Top CSS */
+.backToTop {
+  color: white;
+  background-color: #189a46;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  border-radius: 50%;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.backToTop:hover {
+  color: white;
+  transform: translateY(-10px);
+}
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+/* SEARCH POPUP */
+.modal .modal-dialog {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.modal .modal-content {
+  background-color: transparent;
+  border: none;
+}
+.modal .modal-header {
+  border-bottom: none;
+}
+.modal-header .btn {
+  color: #fff;
+  font-size: 25px;
+}
+.modal-header .btn:hover {
+  color: #fff;
+}
+.modal-header .btn:focus {
+  border: none;
+}
+.modal-body form {
+  display: flex;
+  /* background-color: transparent; */
+
+}
+.modal-body form input {
+  padding: 15px 20px;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid white;
+  width: 80%;
+}
+.modal-body form input:focus-visible{
+  outline: 0;
+}
+.modal-body form .btn{
+  background-color: #189a46;
+  color: #fff;
+  border-radius: 0 10px 10px 0;
+  width: 20%;
+}
+.modal .modal-dialog{
+  position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.modal.fade .modal-dialog{
+  transform: translate(-50%, -50%);
+}
 /* RESPONSIVE */
 @media screen and (max-width: 1199.98px) {
   /* BANNER */
@@ -541,7 +619,7 @@ footer a:hover {
     margin-left: auto;
     order: 0;
   }
-  .dropdown-menu::before{
+  .dropdown-menu::before {
     top: 36px;
     left: 36%;
   }
@@ -570,7 +648,7 @@ footer a:hover {
     max-width: 75%;
   }
   /* STAY */
-  .stay_content form{
+  .stay_content form {
     flex-direction: column;
   }
 }
