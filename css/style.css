@@ -106,11 +106,13 @@ header {
   background-color: #189a46;
   color: #fff;
 }
+.dropdown-menu[data-bs-popper]{
+  left: -90%;
+}
 .dropdown-menu {
   padding-right: 40px;
   background: white;
   border: 1px solid #d2d2d2;
-  position: relative;
 }
 .dropdown-menu::before {
   content: "";
@@ -124,7 +126,7 @@ header {
   transform: translateX(-50%) rotateZ(45deg);
   position: absolute;
   top: -7px;
-  left: 33%;
+  left: 72%;
   z-index: 1001;
 }
 .dropdown-menu .dropdown-item {
@@ -408,6 +410,80 @@ header {
   width: 100%;
   border-radius: 10px;
 }
+/* TESTIMONIALS */
+.testi{
+  background-color: rgba(147, 107, 232, 0.05);
+}
+.testi_item{
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 10px;
+}
+.testi_text{
+  font-size: 1.2rem;
+  margin: 0 24px 24px 24px;
+}
+.testi_text p i{
+  font-size: 1.5rem;
+  vertical-align: bottom;
+  line-height: 2.5;
+  color: #189a46;
+  font-weight: 600;
+}
+.testi_bottom{
+  display: flex;
+}
+.testi_bottom .testi_img{
+  width: 70px;
+  height: 70px;
+}
+.testi_bottom .testi_img img{
+  border-radius: 50%;
+  width: 100%;
+}
+.testi_bottom .testi_name{
+  margin-left: 20px;
+}
+.testi_bottom .testi_name h4{
+  color: black;
+}
+.testi_bottom .testi_name p{
+  font-size: 1.07rem;
+}
+.testi .owl-theme .owl-nav.disabled+.owl-dots{
+  margin-top: 80px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot span{
+  transition: all.5s;
+}
+.testi .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  background-color: #189a46;
+  width: 30px;
+  height: 10px;
+}
+/* STAY */
+.stay_content{
+  max-width: 700px;
+  margin: 0 auto;
+}
+.stay_content form{
+  display: flex;
+  gap: 30px;
+}
+.stay_content form input{
+  border-radius: 10px;
+  height: 60px;
+}
+.stay_content form .form-control:focus{
+  border-color: #189a46;
+  box-shadow: none;
+}
+.stay_content form .btn{
+  color: #fff;
+  background-color: #189a46;
+  border-radius: 10px;
+  padding: 12px 35px;
+}
 /* FOOTER */
 footer {
   background-color: black;
@@ -465,6 +541,10 @@ footer a:hover {
     margin-left: auto;
     order: 0;
   }
+  .dropdown-menu::before{
+    top: 36px;
+    left: 36%;
+  }
   /* BANNER */
   .banner_item .banner_overlay .banner_title1 {
     transform: translateX(0);
@@ -488,6 +568,10 @@ footer a:hover {
   /* OUR PLANT */
   .plant .plant_content .row {
     max-width: 75%;
+  }
+  /* STAY */
+  .stay_content form{
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 575.98px) {

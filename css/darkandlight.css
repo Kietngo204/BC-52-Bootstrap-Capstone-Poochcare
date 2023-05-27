@@ -95,5 +95,21 @@
   background-color: #222;
 }
 .dark .plant_item{
-  background-color: black;
+  background-color: #151515;
+}
+.dark .plant_item h4{
+  color: #fff;
+}
+/* TESTIMONALS */
+.dark .testi{
+  background-color: #222;
+}
+.dark .testi p{
+  color: #696969;
+}
+.dark .testi_item{
+  background-color: #151515;
+}
+.dark .testi_bottom .testi_name h4{
+  color: #ddd;
 }
