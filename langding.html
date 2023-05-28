@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
     <!-- Magic Popup CSS -->
     <link rel="stylesheet" href="./css/magnific-popup.css">
+    <!-- Langding CSS -->
+    <link rel="stylesheet" href="./css/langding.css">
     <!-- Main CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -37,7 +39,7 @@
         <div class="header_content">
             <nav class="navbar navbar-expand-lg py-2">
                 <div class="container">
-                    <a class="navbar-brand fs-1 fw-bold text-success" href="#">Pooch Care</a>
+                    <a class="navbar-brand fs-1 fw-bold text-success" href="./index.html">Pooch Care</a>
                     <button class="btn" id="switchButton" title="Click to switch theme">
                         <i class="far fa-moon"></i>
                         <i class="far fa-sun"></i>
@@ -50,7 +52,7 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                         <ul class="navbar-nav align-items-center">
                             <li class="nav-item">
-                                <a class="nav-link p-0 active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link p-0" aria-current="page" href="./index.html">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link p-0" href="#">About</a>
@@ -62,13 +64,14 @@
                                 <a class="nav-link p-0" href="#">Gallery</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link p-0 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
+                                <a class="nav-link p-0 active dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
                                     Pages
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Blog Posts</a></li>
-                                    <li><a class="dropdown-item" href="./langding.html">Landing page</a></li>
+                                    <li><a class="dropdown-item dropdown-active" href="./view/langding.html">Landing
+                                            page</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -280,6 +283,100 @@
                 </div>
             </div>
         </section>
+        <!-- OUR TEAM -->
+        <section class="team py-5">
+            <div class="container text-center py5">
+                <div class="heading_title mb-5">
+                    <h4>OUR EXPERTS</h4>
+                    <h2>Our Team</h2>
+                </div>
+                <div class="team_content">
+                    <div class="row">
+                        <div class="col-6 col-lg-3">
+                            <div class="team_item">
+                                <div class="team_img">
+                                    <img src="./img/team1.jpg" alt="...">
+                                </div>
+                                <div class="team_name">
+                                    <h4 class="mt-3">
+                                        <a href="#">
+                                            Micheal Wagou
+                                        </a>
+                                    </h4>
+                                    <p>Training</p>
+                                </div>
+                                <div class="team_social mb-4">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="team_item">
+                                <div class="team_img">
+                                    <img src="./img/team2.jpg" alt="...">
+                                </div>
+                                <div class="team_name">
+                                    <h4 class="mt-3">
+                                        <a href="#">
+                                            Alex Mitchell
+                                        </a>
+                                    </h4>
+                                    <p>Boarding</p>
+                                </div>
+                                <div class="team_social mb-4">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="team_item">
+                                <div class="team_img">
+                                    <img src="./img/team3.jpg" alt="...">
+                                </div>
+                                <div class="team_name">
+                                    <h4 class="mt-3">
+                                        <a href="#">
+                                            Scott Colon
+                                        </a>
+                                    </h4>
+                                    <p>Grooming</p>
+                                </div>
+                                <div class="team_social mb-4">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="team_item">
+                                <div class="team_img">
+                                    <img src="./img/team4.jpg" alt="...">
+                                </div>
+                                <div class="team_name">
+                                    <h4 class="mt-3">
+                                        <a href="#">
+                                            John Harris
+                                        </a>
+                                    </h4>
+                                    <p>Doggie Day Care
+                                    </p>
+                                </div>
+                                <div class="team_social mb-4">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- NUMMBER -->
         <section class="number py-5">
             <div class="container py-3">
@@ -308,6 +405,31 @@
                             <p class="counter mb-1">90</p>
                             <h4>Awards</h4>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- BETTER -->
+        <section class="better py-5">
+            <div class="container text-center pb-5">
+                <div class="heading_title">
+                    <h4>BETTER PET NUTRITION.</h4>
+                    <h2>The Finest Fresh Food And All Your Pet Needs.</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Lorem ipsum dolor sit amet elit
+                        consec tetur adipisi elit. Iure voluptatibus explicabo officia.</p>
+                </div>
+                <div class="better_content">
+                    <div class="better_img">
+                        <img src="./img/banner2.jpg" alt="">
+                    </div>
+                    <a href="#small-dialog" class="open-popup-link popup-with-zoom-anim">
+                        <i class="fa-solid fa-play"></i>
+                    </a>
+
+                    <div id="small-dialog" class="zoom-anim-dialog mfp-hide w-100">
+                        <iframe src="https://player.vimeo.com/video/305185528" frameborder="0"
+                            allow="autoplay; fullscreen" allowfullscreen=""></iframe>
                     </div>
                 </div>
             </div>
@@ -389,28 +511,19 @@
                 </div>
             </div>
         </section>
-        <!-- BETTER -->
-        <section class="better py-5">
-            <div class="container text-center pb-5">
-                <div class="heading_title">
-                    <h4>BETTER PET NUTRITION.</h4>
-                    <h2>The Finest Fresh Food And All Your Pet Needs.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Lorem ipsum dolor sit amet elit
-                        consec tetur adipisi elit. Iure voluptatibus explicabo officia.</p>
-                </div>
-                <div class="better_content">
-                    <div class="better_img">
-                        <img src="./img/banner2.jpg" alt="">
+        <!-- STAY -->
+        <section class="stay py-5">
+            <div class="container py-5">
+                <div class="stay_content">
+                    <div class="heading_title text-center mb-5">
+                        <h2>Stay Updated!</h2>
+                        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla
+                            mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
                     </div>
-                    <a href="#small-dialog" class="open-popup-link popup-with-zoom-anim">
-                        <i class="fa-solid fa-play"></i>
-                    </a>
-
-                    <div id="small-dialog" class="zoom-anim-dialog mfp-hide w-100">
-                        <iframe src="https://player.vimeo.com/video/305185528" frameborder="0"
-                            allow="autoplay; fullscreen" allowfullscreen=""></iframe>
-                    </div>
+                    <form>
+                        <input class="form-control" type="text" placeholder="Enter your email...">
+                        <button class="btn">Subscribe</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -541,20 +654,63 @@
                 </div>
             </div>
         </section>
-        <!-- STAY -->
-        <section class="stay py-5">
+        <!-- FIND US -->
+        <section class="find pt-5">
             <div class="container py-5">
-                <div class="stay_content">
-                    <div class="heading_title text-center mb-5">
-                        <h2>Stay Updated!</h2>
-                        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla
-                            mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
-                    </div>
-                    <form>
-                        <input class="form-control" type="text" placeholder="Enter your email...">
-                        <button class="btn">Subscribe</button>
-                    </form>
+                <div class="heading_title text-center">
+                    <h4>FIND US</h4>
+                    <h2>Get In Touch With Us</h2>
                 </div>
+                <div class="find_content">
+                    <div class="row">
+                        <div class="col-12 col-lg-8">
+                            <form class="d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-12 col-sm-6">
+                                        <input type="text" placeholder="Name">
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <input type="text" placeholder="Email">
+                                    </div>
+                                    <div class="col-12"><input type="text" placeholder="Subject*"></div>
+                                    <div class="col-12">
+                                        <textarea cols="30" rows="10" placeholder="Meassge"></textarea>
+                                    </div>
+                                    <button class="btn ms-auto">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="find_item">
+                                <div class="find_icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="find_address">
+                                    <h4>Address</h4>
+                                    <p class="mb-0">#135 block, Barnard St. Brooklyn, London 10036, UK</p>
+                                </div>
+                            </div>
+                            <div class="find_item  mt-5">
+                                <div class="find_icon"><i class="fa-solid fa-phone"></i></div>
+                                <div class="find_address">
+                                    <h4>Telephone</h4>
+                                    <a href="tel:+(12)234-11-24">+(12)234-11-24</a>
+                                    <a href="tel:+(12)234-11-25">+(12)234-11-25</a>
+                                </div>
+                            </div>
+                            <div class="find_item mt-5">
+                                <div class="find_icon"><i class="fa-regular fa-envelope"></i></div>
+                                <div class="find_address">
+                                    <h4>Email Us
+                                    </h4>
+                                    <a href="mailto:example@mail.com">example@mail.com</a>
+                                    <a href="mailto:example@mail1.com">example@mail1.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="find_map mt-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d777.655702803228!2d106.63699161929823!3d10.800594313870961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1685262347863!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
     </main>
@@ -639,7 +795,8 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="btn ms-auto" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                    <button type="button" class="btn ms-auto" data-bs-dismiss="modal" aria-label="Close"><i
+                            class="fa-solid fa-xmark"></i></button>
                 </div>
                 <div class="modal-body">
                     <form>
