@@ -4,7 +4,7 @@
     color: #696969;
   }
   #switchButton {
-    background-color: white;
+    background-color: transparent;
     font-size: 25px;
   }
   #switchButton:focus{
@@ -23,7 +23,7 @@
     color: #bbbbbb;
   }
   .dark #switchButton {
-    background-color: black;
+    background-color: transparent;
   }
   .dark #switchButton .fa-sun {
     display: block;
