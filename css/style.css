@@ -557,6 +557,9 @@ footer a:hover {
   opacity: 1;
 }
 /* SEARCH POPUP */
+.modal{
+  background-color: rgba(0, 0, 0, 0.5);
+}
 .modal .modal-dialog {
   max-width: 600px;
   margin: 0 auto;
