@@ -1,0 +1,109 @@
+/* HEADER */
+.dropdown-active {
+  color: #189a46;
+}
+/* OUR TEAM */
+.team {
+  background-color: rgba(147, 107, 232, 0.05);
+}
+.team_img {
+    overflow: hidden;
+}
+.team_item .team_img img {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.team_item .team_img img:hover {
+  transform: scale(1.1);
+  border-radius: 0;
+}
+.team_name a {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: black;
+  transition: all 0.5s;
+}
+.team_name a:hover {
+  color: #189a46;
+}
+.team_social a {
+  display: inline-block;
+  font-size: 12px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-color: rgba(147, 107, 232, 0.05);
+  color: #189a46;
+  border-radius: 5px;
+  margin: 0 3px;
+  transition: all 0.5s;
+}
+.team_social a:hover {
+  background-color: #189a46;
+  color: white;
+}
+/* FIND US */
+.find_content input, .find_content textarea{
+    color: #252b33;
+    width: 100%;
+    border: 1px solid rgba(147, 107, 232, 0.05);
+    background-color: rgba(147, 107, 232, 0.05);
+    padding: 0 1rem;
+    height: 55px;
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 6px;
+}
+.find_content input:focus{
+    border-color: #189a46;
+}
+.find_content textarea{
+    min-height: 140px;
+    resize: none;
+    padding: 12px 16px;
+}
+.find_content .btn{
+    background-color: #189a46;
+    color: white;
+    font-size: 1.125rem;
+    padding: 12px 35px;
+    width: auto;
+}
+.find_content .btn:hover{
+    background-color:  #116e32;
+    color: white;
+}
+.find_item{
+    display: flex;
+    gap: 20px;
+}
+.find_icon i {
+    font-size: 1.3rem;
+    margin-top: 5px;
+    color: #189a46;
+}
+.find_address h4{
+    color: black;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.find_address a{
+    display: block;
+    color: #777777;
+    line-height: 28px;
+    transition: all .5s;
+}
+.find_address a:hover{
+    color: #189a46;
+    text-decoration: underline;
+}
+.find_map{
+    height: 400px;
+}
+.find_map iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}

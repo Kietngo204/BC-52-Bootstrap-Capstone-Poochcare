@@ -44,6 +44,7 @@
   .dark h2{
     color: #bbbbbb;
   }
+ /*****MAIN*****/
   /* HEADER */
   .nav-link{
     color: black;
@@ -91,25 +92,31 @@
   background-color: #222;
 }
 /* OUR PLANT */
-.dark .plant{
+.dark .plant, .dark .testi, .dark .team{
   background-color: #222;
 }
-.dark .plant_item{
+.dark .plant_item, .dark .testi_item{
   background-color: #151515;
 }
 .dark .plant_item h4{
   color: #fff;
 }
 /* TESTIMONALS */
-.dark .testi{
-  background-color: #222;
-}
 .dark .testi p{
   color: #696969;
 }
-.dark .testi_item{
-  background-color: #151515;
-}
 .dark .testi_bottom .testi_name h4{
   color: #ddd;
+}
+/*****LANDING*****/
+/* OUR TEAM */
+.dark .team_name  a{
+  color: #ddd;
+}
+/* FIND US*/
+.dark .find_address h4{
+  color: #ddd;
+}
+.dark .find_address p{
+  color: #777777;
 }
