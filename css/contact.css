@@ -1,0 +1,41 @@
+.page{
+    background-image: url(../img/banner4.jpg);
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+    margin-top: 100px;
+}
+.page_overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.page_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page_content h1{
+    font-size: 3.125rem;
+    font-weight: 600;
+    color: white;
+}
+.page_custom a{
+    color: #189a46;
+    font-size: 1.2rem;
+}
+.page_custom i{
+    display: inline-block;
+    font-size: .7rem;
+    color: white;
+    margin: 0 12px;
+}
+.page_custom p{
+    font-size: 1.2rem;
+    color: white;
+}
+/* REPONSIVE */
+@media screen and (max-width:575.98px) {
+    .page_content h1{
+        font-size: 2.1rem;
+    }
+}
