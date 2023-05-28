@@ -64,7 +64,7 @@ header {
   padding: 8px 0;
 }
 .navbar-nav .nav-link {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   padding-right: 0;
   padding-left: 0;
   position: relative;
@@ -126,11 +126,11 @@ header {
   transform: translateX(-50%) rotateZ(45deg);
   position: absolute;
   top: -7px;
-  left: 72%;
+  left: 68%;
   z-index: 1001;
 }
 .dropdown-menu .dropdown-item {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   padding: 16px;
   transition: all 0.5s;
 }
