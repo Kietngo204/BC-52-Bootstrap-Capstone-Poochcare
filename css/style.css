@@ -483,8 +483,14 @@ header {
 .stay_content form .btn {
   color: #fff;
   background-color: #189a46;
+  font-size: 1.125rem;
   border-radius: 10px;
   padding: 12px 35px;
+  transition: all .5s;
+}
+.stay_content form .btn:hover{
+  background-color: #116e32;
+  color: white;
 }
 /* FOOTER */
 footer {
