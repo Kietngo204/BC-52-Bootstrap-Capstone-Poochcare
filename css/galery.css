@@ -1,0 +1,17 @@
+.gallery-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-top: 32px;
+}
+
+.gallery-display img {
+  max-width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.gallery {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
