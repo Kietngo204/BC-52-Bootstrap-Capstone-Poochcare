@@ -1,0 +1,153 @@
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 96px 16px;
+}
+.left-about {
+  max-width: 40%;
+}
+
+.right-about {
+  max-width: 60%;
+}
+.about-history {
+  background-image: url(https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/banner2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  padding: 96px 16px;
+}
+
+.about-history::before {
+  content: '';
+  background-color: rgba(0, 4, 8, 0.69);
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.history-content {
+  max-width: 60%;
+}
+.sub-title {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 2em;
+  letter-spacing: 1px;
+}
+.hny-title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: black;
+}
+
+.dark .hny-title {
+  color: white;
+}
+
+.title-content {
+  font-size: 22px;
+  line-height: 32px;
+  opacity: 0.9;
+}
+
+p {
+  opacity: 0.7;
+  margin: 16px 0;
+  padding: 0;
+  font-size: 19px;
+  line-height: 28px;
+  color: var(--font-color);
+  font-family: 'Jost', sans-serif;
+}
+
+.history-timeline {
+  gap: 48px;
+}
+
+.about-history .wrapper {
+  gap: 48px;
+}
+
+.blank {
+  max-width: 40%;
+  width: 40%;
+}
+
+.left-why-choose-us {
+  max-width: 50%;
+}
+
+.why-choose-us {
+  gap: 48px;
+}
+
+.icon-side {
+  color: green;
+  font-size: 48px;
+  padding: 0 16px;
+}
+.right-why-choose-us {
+  gap: 16px;
+}
+
+.left-why-choose-us .dog-image {
+  margin-top: auto;
+}
+
+.right-why-choose-us p {
+  margin: 0;
+  padding: 0;
+}
+
+.icon-side {
+  max-width: 80px;
+  margin-right: 16px;
+}
+
+.why-choose-us {
+  padding: 64px 0;
+}
+
+.dog-image img {
+  border-radius: 10px;
+}
+
+.our-experts {
+  padding: 48px 0;
+  background-color: whitesmoke;
+}
+
+.team-info {
+  gap: 32px;
+}
+
+.team-info img {
+  border-radius: 10px;
+}
+
+.team-info p {
+  margin: 0;
+  padding: 0;
+  line-height: 25px;
+  color: #696969;
+  font-size: 16px;
+}
+
+.social-info {
+  gap: 12px;
+  display: flex;
+}
