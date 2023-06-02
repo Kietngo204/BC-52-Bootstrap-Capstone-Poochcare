@@ -19,7 +19,7 @@
   
   /* Dark Theme*/
   .dark#myBody {
-    background-color: black;
+    background-color: #222;
     color: #bbbbbb;
   }
   .dark #switchButton {
@@ -44,6 +44,9 @@
   .dark h2{
     color: #bbbbbb;
   }
+  .dark .heading_title h5{
+    color: #bbbbbb;
+  }
  /*****MAIN*****/
   /* HEADER */
   .nav-link{
@@ -60,16 +63,16 @@
     color: #dcdcdc;
   }
   .dark .dropdown-menu {
-    background-color: black;
+    background-color: #151515;
     border: 1px solid #333;
   }
   .dark .dropdown-menu::before{
-    background-color: black;
+    background-color: #151515;
     border-top: 1px solid #333;
     border-left: 1px solid #333;
 }
 .dark header{
-  background-color: black;
+  background-color: #151515;
 }
 /* LIST */
 .dark .list{
@@ -78,9 +81,6 @@
 .dark .list_item{
   background-color: #151515;
 }
-/* .dark .list_item:hover{
-  background-color: #222;
-} */
 .dark .list_item a{
   color: #bbbbbb;
 }
@@ -119,4 +119,8 @@
 }
 .dark .find_address p{
   color: #777777;
+}
+/*****ABOUT*****/
+.dark .chooseUs-title h4 a{
+  color: #ddd;
 }

@@ -1,17 +1,38 @@
-.gallery-display {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
-  margin-top: 32px;
+.gallery-img img{
+  border-radius: 20px;
+}
+.lb-data .lb-caption{
+  font-size: 1rem;
+  color: white;
+  letter-spacing: .5px;
+  margin: 1.5rem 0;
+  display: inline-block;
+}
+.lb-data .lb-number{
+  font-size: 1rem;
+  color: #f53626;
+}
+.gallery-img{
+  position: relative;
+  overflow: hidden;
+}
+.gallery-img::before {
+  content: "";
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  display: block;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  transform: skewX(-25deg);
 }
 
-.gallery-display img {
-  max-width: 100%;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.gallery {
-  margin-top: 48px;
-  margin-bottom: 48px;
+.gallery-img:hover::before {
+  left: 125%;
+  transition: all 0.75s;
 }

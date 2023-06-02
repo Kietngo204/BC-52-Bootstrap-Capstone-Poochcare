@@ -33,7 +33,7 @@ h2 {
 .btnRead {
   color: black;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 17px;
   background-color: transparent;
   border: none;
   border-bottom: 2px solid #189a46;
@@ -282,7 +282,7 @@ header {
   font-weight: 600;
   font-size: 1.1rem;
 }
-/* NUMBBER */
+/* NUMBER */
 .number {
   background-color: #189a46;
 }
@@ -486,15 +486,15 @@ header {
   font-size: 1.125rem;
   border-radius: 10px;
   padding: 12px 35px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-.stay_content form .btn:hover{
+.stay_content form .btn:hover {
   background-color: #116e32;
   color: white;
 }
 /* FOOTER */
 footer {
-  background-color: black;
+  background-color: #111;
   color: #696969;
 }
 footer h4 {
@@ -557,7 +557,7 @@ footer a:hover {
   opacity: 1;
 }
 /* SEARCH POPUP */
-.modal{
+.modal {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .modal .modal-dialog {
@@ -584,7 +584,6 @@ footer a:hover {
 .modal-body form {
   display: flex;
   /* background-color: transparent; */
-
 }
 .modal-body form input {
   padding: 15px 20px;
@@ -592,28 +591,28 @@ footer a:hover {
   border: 1px solid white;
   width: 80%;
 }
-.modal-body form input:focus-visible{
+.modal-body form input:focus-visible {
   outline: 0;
 }
-.modal-body form .btn{
+.modal-body form .btn {
   background-color: #189a46;
   color: #fff;
   border-radius: 0 10px 10px 0;
   width: 20%;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-.modal-body form .btn:hover{
+.modal-body form .btn:hover {
   background-color: #116e32;
   color: white;
 }
-.modal .modal-dialog{
+.modal .modal-dialog {
   position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.modal.fade .modal-dialog{
+.modal.fade .modal-dialog {
   transform: translate(-50%, -50%);
 }
 /* RESPONSIVE */
@@ -657,6 +656,12 @@ footer a:hover {
   }
 }
 @media screen and (max-width: 767.98px) {
+  #myBody .heading_title h2 {
+    font-size: 2rem;
+  }
+  #myBody .heading_title h5 {
+    font-size: 1.25rem;
+  }
   /* OUR PLANT */
   .plant .plant_content .row {
     max-width: 75%;
