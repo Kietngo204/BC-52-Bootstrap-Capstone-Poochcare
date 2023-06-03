@@ -56,7 +56,7 @@
     outline: none;
     border-radius: 6px;
 }
-.find_content input:focus{
+.find_content input:focus, .find_content textarea:focus{
     border-color: #189a46;
 }
 .find_content textarea{

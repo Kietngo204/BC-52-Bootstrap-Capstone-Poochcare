@@ -19,7 +19,7 @@
   
   /* Dark Theme*/
   .dark#myBody {
-    background-color: #222;
+    background-color: #151515;
     color: #bbbbbb;
   }
   .dark #switchButton {
@@ -108,6 +108,11 @@
 .dark .testi_bottom .testi_name h4{
   color: #ddd;
 }
+/*****CONTACT*****/
+.dark .find_content input, .dark .find_content textarea{
+  background-color: #222;
+  color: #f8f8f8;
+}
 /*****LANDING*****/
 /* OUR TEAM */
 .dark .team_name  a{
@@ -123,4 +128,8 @@
 /*****ABOUT*****/
 .dark .chooseUs-title h4 a{
   color: #ddd;
+}
+/*****SERVICES*****/
+.dark .services-dog .services-dog-content .row{
+  border-color: #444;
 }
