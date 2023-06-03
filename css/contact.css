@@ -4,6 +4,7 @@
     background-size: cover;
     /* position: relative; */
     margin-top: 100px;
+    overflow: hidden;
 }
 .page_overlay{
     background-color: rgba(0, 0, 0, 0.5);

@@ -9,6 +9,9 @@ body {
   font-family: "Jost", sans-serif;
   font-size: 16px;
 }
+main{
+  overflow: hidden;
+}
 ul {
   list-style: none;
   padding: 0;
@@ -228,11 +231,17 @@ header {
   color: white;
 }
 /* ABOUT US */
+.aboutUs{
+  overflow: hidden;
+}
 .aboutUs .heading_title {
   max-width: 800px;
   margin: 0 auto;
 }
 /* LIST */
+.list{
+  overflow: hidden;
+}
 .list_item {
   background-color: white;
   padding: 40px 30px;
@@ -261,6 +270,9 @@ header {
   font-size: 1.3rem;
 }
 /* CHOOSE */
+.choose{
+  overflow: hidden;
+}
 .choose_left img {
   width: 100%;
   border-radius: 10px;
@@ -298,6 +310,7 @@ header {
 /* OUR PLANT */
 .plant {
   background-color: rgba(147, 107, 232, 0.05);
+  overflow: hidden;
 }
 .plant .heading_title {
   margin-bottom: 100px;
@@ -413,6 +426,7 @@ header {
 /* TESTIMONIALS */
 .testi {
   background-color: rgba(147, 107, 232, 0.05);
+  overflow: hidden;
 }
 .testi_item {
   background-color: white;
@@ -496,6 +510,7 @@ header {
 footer {
   background-color: #111;
   color: #696969;
+  overflow: hidden;
 }
 footer h4 {
   color: white;

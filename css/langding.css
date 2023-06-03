@@ -5,6 +5,7 @@
 /* OUR TEAM */
 .team {
   background-color: rgba(147, 107, 232, 0.05);
+  overflow: hidden;
 }
 .team_img {
     overflow: hidden;
@@ -45,6 +46,9 @@
   color: white;
 }
 /* FIND US */
+.find{
+  overflow: hidden;
+}
 .find_content input, .find_content textarea{
     color: #252b33;
     width: 100%;
